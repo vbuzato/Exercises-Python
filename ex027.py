@@ -1,0 +1,5 @@
+nome = input('Digite um nome: ')
+nome = nome.split()
+count = len(nome)
+print('Primeiro nome: {}.'.format(nome[0]))
+print('Último nome: {}.'.format(nome[count-1]))
